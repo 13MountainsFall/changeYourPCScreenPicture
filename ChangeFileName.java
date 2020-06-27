@@ -16,14 +16,11 @@ public class ChangeFileName {
      * @throws IOException
      */
     public static void main(String[] args) throws IOException {
-        //获取 加jpg
-        //获取源文件路径下 每一张图片的图片名，调用下面的方法
-        String fileName = "";
 
         //获取所有文件名list
         File file = new File(str1);
         File[] list = file.listFiles();
-        System.out.println(list);//[Ljava.lang.String;@1b6d3586
+        //System.out.println(list);//[Ljava.lang.String;@1b6d3586
 
         //gei all names for String
         for (File item : list) {
